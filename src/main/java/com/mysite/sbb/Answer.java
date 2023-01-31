@@ -21,5 +21,5 @@ public class Answer {
     private LocalDateTime createDate;
 
     @ManyToOne
-    private Questoin questoin;
+    private Question question;
 }
