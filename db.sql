@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS sbb_2nd;
+CREATE DATABASE sbb_2nd;
+USE sbb_2nd;
