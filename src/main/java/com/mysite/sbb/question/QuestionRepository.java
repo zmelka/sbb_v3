@@ -1,4 +1,4 @@
-package com.mysite.sbb;
+package com.mysite.sbb.question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -9,5 +9,5 @@ public interface QuestionRepository extends JpaRepository<Question, Integer> {
 
     Question findBySubjectAndContent(String subject, String content);
 
-    List<Question> findBySubjectLike(String s);
+    List<Question> findBySubjectLike(String subject);
 }
